@@ -35,7 +35,7 @@ npm run dev
 ## 📸 Project Screenshots
 
 ### Login Page
-![Task Page](./Screenshot%202026-02-28%20093057.png)
+![Task Page]([./Screenshot%202026-11-25%20102342.png)
 
 ### Dashboard View
 ![Dashboard](./Screenshot%202026-02-28%20093024.png)
