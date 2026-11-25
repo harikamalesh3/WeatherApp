@@ -2,9 +2,12 @@
 
 A weather application built using modern web technologies.
 
-## 📸 Project Structure
+## 📸 Project Screenshots
 
-![Weather App Project Structure](Screenshot%202026-11-25%20102342.png)
+![Dashboard](Screenshot%202026-11-25%20102342.png)
+
+![Weather details for the city](Screenshot%202026-11-25%20102342.png)
+
 
 ## 📁 Project Structure
 
