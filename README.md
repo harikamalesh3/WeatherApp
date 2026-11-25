@@ -34,12 +34,9 @@ npm run dev
 ```
 ## 📸 Project Screenshots
 
-### Login Page
-![Task Page]([./Screenshot%202026-11-25%20102342.png)
+### Dashboard
+![Task Page](Screenshot%202026-11-25%20102342.png)
 
-### Dashboard View
-![Dashboard](./Screenshot%202026-02-28%20093024.png)
+### Weather details for a city
+![Dashboard](Screenshot%202026-11-25%20102407.png)
 
-## 👨‍💻 Author
-
-Hariharan
