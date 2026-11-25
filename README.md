@@ -4,7 +4,7 @@ A weather application built using modern web technologies.
 
 ## 📸 Project Structure
 
-![Weather App Project Structure](screenshots/project-structure.png)
+![Weather App Project Structure](Screenshot%202026-11-25%20102342.png)
 
 ## 📁 Project Structure
 
