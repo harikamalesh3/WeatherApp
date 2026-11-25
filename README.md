@@ -4,10 +4,10 @@ A weather application built using modern web technologies.
 
 ## 📸 Project Screenshots
 
-- **Dashboard/**
+**Dashboard/**
 ![Dashboard](Screenshot%202026-11-25%20102342.png)
 
-- **Weather details for a city/**
+**Weather details for a city/**
 ![Weather details](Screenshot%202026-11-25%20102407.png)
 
 
