@@ -2,14 +2,6 @@
 
 A weather application built using modern web technologies.
 
-## 📸 Project Screenshots
-
-**Dashboard/**
-![Dashboard](Screenshot%202026-11-25%20102342.png)
-
-**Weather details for a city/**
-![Weather details](Screenshot%202026-11-25%20102407.png)
-
 
 ## 📁 Project Structure
 
@@ -40,6 +32,13 @@ cd frontend
 npm install
 npm run dev
 ```
+## 📸 Project Screenshots
+
+### Login Page
+![Task Page](./Screenshot%202026-02-28%20093057.png)
+
+### Dashboard View
+![Dashboard](./Screenshot%202026-02-28%20093024.png)
 
 ## 👨‍💻 Author
 
