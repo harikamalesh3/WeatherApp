@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  background: url("https://images.unsplash.com/photo-1501973801540-537f08ccae7b")
+    no-repeat center center/cover;
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+body.dark {
+  background: url("https://images.unsplash.com/photo-1501973801540-537f08ccae7b")
+    no-repeat center center/cover;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: transparent;
+  z-index: -1;
+}
+
+body.dark::before {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.app-container {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 320px;
+  color: #fff;
+}
+
+body.dark .app-container {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #fa5306;
+}
+
+.datetime {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #000;  
+}
+
+body.dark .datetime {
+  color: #fff;
+}
+
+.time-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.clock {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #000;  
+  border-radius: 50%;
+  position: relative;
+}
+
+body.dark .clock {
+  border-color: #fff;
+}
+
+.clock::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 6px;
+  background: #000;   
+  top: 3px;
+  left: 50%;
+  transform-origin: bottom;
+  animation: spin 6s linear infinite;
+}
+
+.clock::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 4px;
+  background: #000;  
+  top: 5px;
+  left: 50%;
+  transform-origin: bottom;
+  animation: spin 12s linear infinite;
+}
+
+body.dark .clock::before,
+body.dark .clock::after {
+  background: #fff;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg) translateX(-50%);
+  }
+  to {
+    transform: rotate(360deg) translateX(-50%);
+  }
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-box input {
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  width: 180px;
+}
+
+.search-box button {
+  height: 40px;
+  padding: 0 15px;
+  border: none;
+  background: #4facfe;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background: #007bff;
+}
+
+.weather-box {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+  color: #000;
+}
+
+body.dark .weather-box {
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1000;
+}
